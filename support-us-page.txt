@@ -1,0 +1,138 @@
+body{
+    min-width: 1000px;
+}
+
+#heading{
+    background-color: #213e8c;
+    padding: 80px 50px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px ;
+} 
+
+
+#body1{
+    padding: 80px 0 0 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px ;
+    font-family:Arial, Helvetica, sans-serif ;
+    /* text-shadow : 0rem 0rem 1rem #211d1d; */
+}
+
+#body2{
+    text-align: center;
+    font-family:sans-serif ;
+    font-weight: normal;
+    font-size: 15px;
+    /* white-space: pre; */
+    padding-top: 10px;
+}
+
+a:link{
+    color: #c84869;
+}
+#btn {
+    background-color: #c84869;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    border: solid 5px #c84869 ;
+    color: rgb(255, 255, 255);
+    padding : 10px ;
+    font-size: 18px;
+    cursor: pointer;
+    /* box-shadow: 0rem 0rem 5px 3px #eb6889; */
+}
+
+#support_image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 90px;
+    margin-bottom: 55px;
+}
+
+#body3{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+}
+
+#ways{
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: candara light;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.three_color{
+    margin-top: 50px;
+    width:100%;
+    height: 285px; 
+    margin-top: 50px;
+    width: 33.3%;
+    text-align:center;
+    float: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading_of_three_color{
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+
+#first_color{
+    float: left;
+    background-color: #c84869; 
+} 
+#second_color{
+    float: left;
+    background-color:#2a70de;
+} 
+#third_color{
+    float: left;
+    background-color: #213e8c;
+}
+
+#btn_three_color{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    /* border: solid 5px #ffffff; */
+    color: rgb(255, 255, 255);
+    padding : 8px ;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+          
+}
+
+.logo{
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    float: none;
+    padding-top: 50px;
+}
+.content_of_three_color{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* white-space: pre; */
+}

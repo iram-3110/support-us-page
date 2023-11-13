@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--support-us.css is been imported-->
+    <link rel="stylesheet" type="text/css" href="support-us-page.css">
+    
+</head>
+<body>
+    <div id="heading" > Support Us </div>
+    <div id="body1" class="common">Get Involved</div>
+    <div id="body2" class="common">I'm a paragraph. Click here to add your own text and edit me.<br> 
+            I'm a great place for you to tell a story and let your users know a little more about you.
+    </div>
+    <div>
+        <a href="www.google.com">
+        <button type="button"  id="btn"  >See our events</button>
+        </a>
+    </div>
+    <div>
+        <img id="support_image" src="support-us-image.png">
+    </div>
+    <div id="body3">
+        Let's Make A Change
+        <div id="ways">Here are some ways you can donate:</div>
+    </div>
+    <div id="first_color" class="three_color" >
+        <img src="in-person.png" class="logo"></img>
+        <div class="heading_of_three_color">In Person </div> 
+        <div class="content_of_three_color">Terry Francine Street San Francisco, CA 94158 </div>
+    </div>
+          
+    <div id="second_color" class="three_color">
+        <img src="online.png" class="logo"></img>
+        <div class="heading_of_three_color">Online </div> 
+        <div class="content_of_three_color">Make a tax deductible donation.</div>
+        <div><a href="www.google.com">
+            <button type="button"  id="btn_three_color"  >Click Here</button>
+            </a>
+        </div>
+    </div>
+    <div id="third_color" class="three_color">
+        <img src="phone.png" class="logo"></img>
+        <div class="heading_of_three_color">Over the Phone</div>
+        <div class="content_of_three_color">It's easy to donate offline too. Tel: 123-456-7890 </div>
+    </div>
+
+    
+</body>
+</html>
